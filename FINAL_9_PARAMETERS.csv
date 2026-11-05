@@ -1,0 +1,10 @@
+﻿channel,feature,label,unit,physics,cluster
+Pressure,Pressure__gas4_mean,C4F8 보호 단계 압력,기록 단위,패시베이션 생성·수송의 균형. 직선보다 최적점 가능,A
+PlatenRFLoadPower,PlatenRFLoadPower__gas5_mean,SF6 식각 단계 Platen RF 전력,기록 단위,이온을 웨이퍼로 가속하는 계통의 전달 전력,B
+PlatenDcBias,PlatenDcBias__gas5_mean,SF6 식각 단계 DC bias,기록 단위,웨이퍼 이온 에너지의 직접 대리값,독립
+Heater2Temp,Heater2Temp__active_std,Heater2 온도 변동폭,기록 단위,열 안정도와 패시베이션 재현성 감시,독립
+PlatenRFLoadCapacitor,PlatenRFLoadCapacitor__active_std,Platen 매칭 변동폭,기록 단위,RF 매칭이 공정 중 얼마나 흔들렸는지,독립
+Gas4Flow,Gas4Flow__gas4_mean,C4F8 보호 가스 유량,기록 단위,측벽 보호막을 만드는 패시베이션 공급,독립
+Gas5Flow,Gas5Flow__gas5_mean,SF6 식각 가스 유량,기록 단위,F 라디칼을 공급하는 식각 단계 가스,독립
+moriInnerCurrent,moriInnerCurrent__gas5_mean,식각 단계 mori 내부 전류,기록 단위,정의 미확인이나 독립적인 장비 진단 신호,독립
+SourceRFReflectedPower,SourceRFReflectedPower__gas5_mean,SF6 식각 단계 Source RF 반사 전력,기록 단위,작을수록 전달 결합이 양호할 가능성,독립

@@ -1,0 +1,32 @@
+﻿channel,category,plain_meaning,decision,reason
+EpdIntensity,진단,EPD 광 세기,제거,상수 0.123이라 웨이퍼를 구분하지 못함
+ForeLinePressure,압력,배기 라인 압력,제거,Pressure보다 간접적인 펌핑 대리값
+Gas1Flow,가스,가스 1 유량,대표로 통합,클러스터 A; Pressure로 대표
+Gas2Flow,가스,가스 2 유량,제거,관계가 약하고 화학종 정의 없음
+Gas3Flow,가스,가스 3 유량,제거,항상 0
+Gas4Flow,가스,C4F8 보호 가스 유량(주기 기반 추정),유지,패시베이션 단계 구분에 필요
+Gas5Flow,가스,SF6 식각 가스 유량(주기 기반 추정),유지,식각 단계 구분에 필요
+Gas7Flow,가스,가스 7 유량,제거,관계가 약하고 화학종 정의 없음
+Gas8Flow,가스,가스 8 유량,제거,항상 0
+Heater1Temp,열,히터 1 온도,제거,Heater2 안정도보다 예측 정보가 약함
+Heater2Temp,열,히터 2 온도/변동폭,유지,평균보다 변동폭이 독립적인 안정도 신호
+Heater3Temp,열,히터 3 온도,제거,Heater2 안정도보다 예측 정보가 약함
+Heater4Temp,열,히터 4 온도,제거,평균이 로트 라벨에 가까움
+HeliumBPFlow,열,후면 냉각 헬륨 유량,제거,열 상태의 간접 대리값
+HeliumBPPressure,열,후면 냉각 헬륨 압력,대표로 통합,클러스터 A; Pressure로 대표
+PlatenDcBias,Platen RF,웨이퍼 DC 바이어스,유지,이온 에너지에 가장 직접적인 대리값
+PlatenRFLoadCapacitor,Platen RF,플래튼 매칭 부하 커패시터,유지,변동폭이 독립적인 매칭 안정도 신호
+PlatenRFLoadPower,Platen RF,플래튼 전달 전력,유지,클러스터 B의 물리적 대표
+PlatenRFPeakToPeak,Platen RF,플래튼 전압 진폭,대표로 통합,클러스터 B; LoadPower로 대표
+PlatenRFReflectedPower,Platen RF,플래튼 반사 전력,대표로 통합,클러스터 B; LoadPower로 대표
+PlatenRFTuningCapacitor,Platen RF,플래튼 튜닝 커패시터,대표로 통합,클러스터 B; LoadPower로 대표
+Pressure,압력,챔버 압력,유지,클러스터 A의 해석 가능한 대표
+SourceRF2LoadPower,Source RF,두 번째 소스 전달 전력,제거,항상 0
+SourceRF2PeakToPeak,Source RF,두 번째 소스 전압 진폭,제거,RF2 전력이 0이고 물리 의미가 약함
+SourceRF2ReflectedPower,Source RF,두 번째 소스 반사 전력,제거,항상 0
+SourceRF2TuningCapacitor,Source RF,두 번째 소스 튜닝 위치,대표로 통합,클러스터 A; Pressure로 대표
+SourceRFLoadPower,Source RF,소스 전달 전력,대표로 통합,클러스터 A; Pressure로 대표
+SourceRFPeakToPeak,Source RF,소스 전압 진폭,제거,전달/반사 전력과 중복되는 상태 대리값
+SourceRFReflectedPower,Source RF,소스 반사 전력,유지,플라즈마 결합 상태를 별도로 보존
+SourceRFTuningCapacitor,Source RF,소스 튜닝 위치,대표로 통합,클러스터 A; Pressure로 대표
+moriInnerCurrent,진단,장비 고유 내부 전류,유지,다른 센서와 비교적 독립적인 진단 신호

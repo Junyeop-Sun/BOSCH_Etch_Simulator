@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.venv/
+desktop.png
+mobile.png
+equipment.png
